@@ -5,10 +5,12 @@ The style file: achemso.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: acs-main.bib
 Database file #2: achemso-demo.bib
+Warning--I didn't find a database entry for "cdse/cdte"
+Warning--I didn't find a database entry for "cdse/cds"
 achemso 2019-02-14 v3.12a
 You've used 13 entries,
             2538 wiz_defined-function locations,
-            835 strings with 10136 characters,
+            837 strings with 10153 characters,
 and the built_in function-call counts, 4973 in all, are:
 = -- 308
 > -- 454
@@ -47,3 +49,4 @@ warning$ -- 0
 while$ -- 36
 width$ -- 0
 write$ -- 166
+(There were 2 warnings)

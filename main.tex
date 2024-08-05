@@ -1,4 +1,3 @@
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% This is a (brief) model paper using the achemso class
 %% The document class accepts keyval options, which should include
@@ -52,7 +51,7 @@
 \author{Yusuf Keleştemur}
 \email{yusufk@metu.edu.tr}
 \affiliation[METU]
-{Middle East Technicak University, Department of Metallurgical and Materials Engineering, Ankara, Turkey}
+{Middle East Technical University, Department of Metallurgical and Materials Engineering, Ankara, Turkey}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% The document title should be given as usual. Some journals require
@@ -84,21 +83,21 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{tocentry}
 
-Some journals require a graphical entry for the Table of Contents.
-This should be laid out ``print ready'' so that the sizing of the
-text is correct.
+  Some journals require a graphical entry for the Table of Contents.
+  This should be laid out ``print ready'' so that the sizing of the
+  text is correct.
 
-Inside the \texttt{tocentry} environment, the font used is Helvetica
-8\,pt, as required by \emph{Journal of the American Chemical
-Society}.
+  Inside the \texttt{tocentry} environment, the font used is Helvetica
+  8\,pt, as required by \emph{Journal of the American Chemical
+    Society}.
 
-The surrounding frame is 9\,cm by 3.5\,cm, which is the maximum
-permitted for  \emph{Journal of the American Chemical Society}
-graphical table of content entries. The box will not resize if the
-content is too big: instead it will overflow the edge of the box.
+  The surrounding frame is 9\,cm by 3.5\,cm, which is the maximum
+  permitted for  \emph{Journal of the American Chemical Society}
+  graphical table of content entries. The box will not resize if the
+  content is too big: instead it will overflow the edge of the box.
 
-This box and the associated title will always be printed on a
-separate page at the end of the document.
+  This box and the associated title will always be printed on a
+  separate page at the end of the document.
 
 \end{tocentry}
 
@@ -107,17 +106,7 @@ separate page at the end of the document.
 %% if an abstract is not used by the target journal.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{abstract}
-  This is an example document for the \textsf{achemso} document
-  class, intended for submissions to the American Chemical Society
-  for publication. The class is based on the standard \LaTeXe\
-  \textsf{report} file, and does not seek to reproduce the appearance
-  of a published paper.
-
-  This is an abstract for the \textsf{achemso} document class
-  demonstration document.  An abstract is only allowed for certain
-  manuscript types.  The selection of \texttt{journal} and
-  \texttt{manuscript} will determine if an abstract is valid.  If
-  not, the class will issue an appropriate error.
+  ABS
 \end{abstract}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -172,8 +161,8 @@ to using \texttt{\textbackslash mciteSubRef}:
 
 The class also handles notes to be added to the bibliography.  These
 should be given in place in the document \bibnote{This is a note.
-The text will be moved the the references section.  The title of the
-section will change to ``Notes and References''.}.  As with
+  The text will be moved the the references section.  The title of the
+  section will change to ``Notes and References''.}.  As with
 citations, the text should be placed before punctuation.  A note is
 also generated if a citation has an optional note.  This assumes that
 the whole work has already been cited: odd numbering will result if
@@ -242,54 +231,49 @@ rather than the bottom, a minipage may be used.
 \end{equation}
 
 \section{Experimental}
+\subsection{Synthesis of Cadmium Myristate}
+\quad 1.878 grams of Sodium Myristate stirred in 150 ml of methanol while
+0.738 grams of Cadmium Nitrate Tetrahydrate was dissolved in 24 ml of methanol.
+After 1 hour of stirring, the two solutions were mixed and stirred for 20 minutes.
+White precipitate was formed and the solution was filtered.
+The precipitate was washed with methanol and dried under vacuum for 24 hours.
 
-The usual experimental details should appear here.  This could
-include a table, which can be referenced as Table~\ref{tbl:example}.
-Notice that the caption is positioned at the top of the table.
-\begin{table}
-  \caption{An example table}
-  \label{tbl:example}
-  \begin{tabular}{ll}
-    \hline
-    Header one  & Header two  \\
-    \hline
-    Entry one   & Entry two   \\
-    Entry three & Entry four  \\
-    Entry five  & Entry five  \\
-    Entry seven & Entry eight \\
-    \hline
-  \end{tabular}
-\end{table}
+\subsection{Synthesis of Cadmium Selenide Nanoplatelets}
+\quad 340 mg of cadmium myristate, 24 mg of Se, and 30 mL of ODE placed
+into the 100 mL three-neck flask and degassed at 90 °C for 30 min.
+The solution was heated to 240 °C under nitrogen with a rate of
+10--12 °C/min. When the temperature reached 185--190 °C,
+80 mg of cadmium acetate dihydrate swiftly added to the
+reaction mixture. The reaction solution was kept at 240 °C
+for 10 mins for the growth of NPLs. After the growth,
+the reaction solution was cooled to room temperature with
+the addition of 1 mL of oleic acid. For the cleaning step,
+5 mL of n-hexane was added to the resulting solution,
+and it was put into a 50mL centrifuge tube for centrifugation.
+After centrifugation, the precipitate was discarded,
+and the supernatant was divided into two parts.
+With the addition of 6 mL of ethanol to each part, 4ML
+thick CdSe NPLs were precipitated by centrifugation.
+Then, the precipitated CdSe NPLs were dissolved in
+6 mL of hexane andcleaned one more time with the addition
+of 3 mL of ethanol.
 
-Adding notes to tables can be complicated.  Perhaps the easiest
-method is to generate these using the basic
-\texttt{\textbackslash textsuperscript} and
-\texttt{\textbackslash emph} macros, as illustrated (Table~\ref{tbl:notes}).
-\begin{table}
-  \caption{A table with notes}
-  \label{tbl:notes}
-  \begin{tabular}{ll}
-    \hline
-    Header one                            & Header two \\
-    \hline
-    Entry one\textsuperscript{\emph{a}}   & Entry two  \\
-    Entry three\textsuperscript{\emph{b}} & Entry four \\
-    \hline
-  \end{tabular}
+\subsection{Synthesis of CdSe/CdS and CdSe/CdTe Core/Crown Nanoplatelets}
+For the crown growth around the CdSe NPLs, modified methods of 
+\cite{cdse/cdte} and \cite{cdse/cds} were used.
+For CdS crown growth, 420 $\nu L$ of CdSe nanoplatelets in hexane
+(OD@350=1 in 300x dilution), 180 $\nu L$ of oleic acid, 8 mL of ODE, and 96 mg
+of Cadmium acetate dihydrate were placed into a 50 mL three-neck flask and degassed
+for an hour at 100 °C. Then the temperature set To 240 °C under nitrogen,
+when the temperature reached 215 °C, sulphur precursed injected with a rate of 
+12 ml/h for 25 minutes. After the injection the solution cooled rapidly to 
+room temperature. Reaction mixture was centrifuged with the addition of 5 mL 
+of n-hexane and 10 mL of ethanol at 4000 rpm for 10 minutes. 
+The precipitate was dissolved in n-hexane and centrifuged again
+at 4000  rpm for 5 minutes. The supernant was stored under ambient conditions.
 
-  \textsuperscript{\emph{a}} Some text;
-  \textsuperscript{\emph{b}} Some more text.
-\end{table}
 
-The example file also loads the optional \textsf{mhchem} package, so
-that formulas are easy to input: \texttt{\textbackslash ch\{H2SO4\}}
-gives \ch{H2SO4}.  See the use in the bibliography file (when using
-titles in the references section).
 
-The use of new commands should be limited to simple things which will
-not interfere with the production process.  For example,
-\texttt{\textbackslash mycommand} has been defined in this example,
-to give italic, mono-spaced text: \mycommand{some text}.
 
 \section{Extra information when writing JACS Communications}
 
@@ -318,14 +302,14 @@ automatically ignored, although you will get warnings to this effect.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{acknowledgement}
 
-Please use ``The authors thank \ldots'' rather than ``The
-authors would like to thank \ldots''.
+  Please use ``The authors thank \ldots'' rather than ``The
+  authors would like to thank \ldots''.
 
-The author thanks Mats Dahlgren for version one of \textsf{achemso},
-and Donald Arseneau for the code taken from \textsf{cite} to move
-citations after punctuation. Many users have provided feedback on the
-class, which is reflected in all of the different demonstrations
-shown in this document.
+  The author thanks Mats Dahlgren for version one of \textsf{achemso},
+  and Donald Arseneau for the code taken from \textsf{cite} to move
+  citations after punctuation. Many users have provided feedback on the
+  class, which is reflected in all of the different demonstrations
+  shown in this document.
 
 \end{acknowledgement}
 
@@ -335,16 +319,16 @@ shown in this document.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{suppinfo}
 
-A listing of the contents of each file supplied as Supporting Information
-should be included. For instructions on what should be included in the
-Supporting Information as well as how to prepare this material for
-publications, refer to the journal's Instructions for Authors.
+  A listing of the contents of each file supplied as Supporting Information
+  should be included. For instructions on what should be included in the
+  Supporting Information as well as how to prepare this material for
+  publications, refer to the journal's Instructions for Authors.
 
-The following files are available free of charge.
-\begin{itemize}
-  \item Filename: brief description
-  \item Filename: brief description
-\end{itemize}
+  The following files are available free of charge.
+  \begin{itemize}
+    \item Filename: brief description
+    \item Filename: brief description
+  \end{itemize}
 
 \end{suppinfo}
 
