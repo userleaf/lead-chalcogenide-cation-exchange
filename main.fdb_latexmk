@@ -1,5 +1,5 @@
 # Fdb version 3
-["bibtex main"] 1723549603 "main.aux" "main.bbl" "main" 1723549628
+["bibtex main"] 1723549603 "main.aux" "main.bbl" "main" 1723549644
   "/usr/share/texlive/texmf-dist/bibtex/bst/achemso/achemso.bst" 1550182315 30161 4b811239b3090397af1382931b52d2b7 ""
   "achemso-demo.bib" 1722847067 5245 4cd464bce4f91c3640fb8c8fafe7d220 ""
   "acs-main.bib" 1723549603 535 257fb4a89ffa4551cf90d3e9d17d1cc9 "pdflatex"
@@ -7,7 +7,7 @@
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1723549603 "/workspaces/codespaces-blank/github-repos/lead-chalcogenide-cation-exchange/main.tex" "/workspaces/codespaces-blank/github-repos/lead-chalcogenide-cation-exchange/main.pdf" "main" 1723549628
+["pdflatex"] 1723549603 "/workspaces/codespaces-blank/github-repos/lead-chalcogenide-cation-exchange/main.tex" "/workspaces/codespaces-blank/github-repos/lead-chalcogenide-cation-exchange/main.pdf" "main" 1723549644
   "/etc/texmf/web2c/texmf.cnf" 1722846647 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/codespace/.texlive2019/texmf-var/web2c/pdftex/pdflatex.fmt" 1722847139 8257381 2f404b38bc7981c2d55373b17d8c2b77 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -196,8 +196,8 @@
   "main.tex" 1723549601 15873 c21e44db08d6d602f0dd015f4c42ffde ""
   (generated)
   "main.aux"
-  "main.pdf"
-  "main.log"
   "/workspaces/codespaces-blank/github-repos/lead-chalcogenide-cation-exchange/main.log"
   "/workspaces/codespaces-blank/github-repos/lead-chalcogenide-cation-exchange/main.pdf"
+  "main.log"
   "acs-main.bib"
+  "main.pdf"
