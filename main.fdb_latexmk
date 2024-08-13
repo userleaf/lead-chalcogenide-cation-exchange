@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex main"] 1723548575 "main.aux" "main.bbl" "main" 1723549214
+["bibtex main"] 1723549603 "main.aux" "main.bbl" "main" 1723549612
   "/usr/share/texlive/texmf-dist/bibtex/bst/achemso/achemso.bst" 1550182315 30161 4b811239b3090397af1382931b52d2b7 ""
   "achemso-demo.bib" 1722847067 5245 4cd464bce4f91c3640fb8c8fafe7d220 ""
-  "acs-main.bib" 1723548715 535 257fb4a89ffa4551cf90d3e9d17d1cc9 "pdflatex"
-  "main.aux" 1723548715 2955 9be6dd29db63800ac2d5233382e7a46c "pdflatex"
+  "acs-main.bib" 1723549603 535 257fb4a89ffa4551cf90d3e9d17d1cc9 "pdflatex"
+  "main.aux" 1723549603 2955 9be6dd29db63800ac2d5233382e7a46c "pdflatex"
   (generated)
-  "main.bbl"
   "main.blg"
-["pdflatex"] 1723548714 "/workspaces/codespaces-blank/github-repos/lead-chalcogenide-cation-exchange/main.tex" "/workspaces/codespaces-blank/github-repos/lead-chalcogenide-cation-exchange/main.pdf" "main" 1723549214
+  "main.bbl"
+["pdflatex"] 1723549603 "/workspaces/codespaces-blank/github-repos/lead-chalcogenide-cation-exchange/main.tex" "/workspaces/codespaces-blank/github-repos/lead-chalcogenide-cation-exchange/main.pdf" "main" 1723549612
   "/etc/texmf/web2c/texmf.cnf" 1722846647 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/codespace/.texlive2019/texmf-var/web2c/pdftex/pdflatex.fmt" 1722847139 8257381 2f404b38bc7981c2d55373b17d8c2b77 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -189,15 +189,15 @@
   "/usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb" 1722846695 198221 ca5aa71411090ef358a6cc78b7458365 ""
   "/usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb" 1722846695 167085 68de377d2744a68a88fa40a1f610615a ""
   "/usr/share/texmf/web2c/texmf.cnf" 1581979058 38841 ce3692aa899bb693b90b87eaa5d4d84e ""
-  "/workspaces/codespaces-blank/github-repos/lead-chalcogenide-cation-exchange/main.aux" 1723548715 2955 9be6dd29db63800ac2d5233382e7a46c ""
-  "/workspaces/codespaces-blank/github-repos/lead-chalcogenide-cation-exchange/main.tex" 1723548715 15873 c21e44db08d6d602f0dd015f4c42ffde ""
-  "main.aux" 1723548715 2955 9be6dd29db63800ac2d5233382e7a46c "pdflatex"
-  "main.bbl" 1723548575 6607 4dd289a25104cc7bf8e17ace2aba9372 "bibtex main"
-  "main.tex" 1723548715 15873 c21e44db08d6d602f0dd015f4c42ffde ""
+  "/workspaces/codespaces-blank/github-repos/lead-chalcogenide-cation-exchange/main.aux" 1723549603 2955 9be6dd29db63800ac2d5233382e7a46c ""
+  "/workspaces/codespaces-blank/github-repos/lead-chalcogenide-cation-exchange/main.tex" 1723549601 15873 c21e44db08d6d602f0dd015f4c42ffde ""
+  "main.aux" 1723549603 2955 9be6dd29db63800ac2d5233382e7a46c "pdflatex"
+  "main.bbl" 1723549603 6607 4dd289a25104cc7bf8e17ace2aba9372 "bibtex main"
+  "main.tex" 1723549601 15873 c21e44db08d6d602f0dd015f4c42ffde ""
   (generated)
   "acs-main.bib"
   "/workspaces/codespaces-blank/github-repos/lead-chalcogenide-cation-exchange/main.log"
-  "/workspaces/codespaces-blank/github-repos/lead-chalcogenide-cation-exchange/main.pdf"
   "main.log"
   "main.pdf"
   "main.aux"
+  "/workspaces/codespaces-blank/github-repos/lead-chalcogenide-cation-exchange/main.pdf"
